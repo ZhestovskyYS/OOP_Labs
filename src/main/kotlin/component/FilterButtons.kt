@@ -8,7 +8,6 @@ import react.RState
 import react.dom.button
 
 interface ButtonsProps: RProps{
-    var active: Boolean
     var onClick: () -> Unit
 }
 
